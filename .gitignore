@@ -1,1 +1,5 @@
-./node_modules
+README.md
+package.json
+LICENSE.txt
+bower.json
+node_modules/*.js
