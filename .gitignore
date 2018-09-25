@@ -1,5 +1,2 @@
-README.md
-package.json
-LICENSE.txt
-bower.json
-node_modules/*.js
+.gitignore
+node_modules
