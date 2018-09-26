@@ -24,4 +24,5 @@
 
 .card {
 	margin: 15px;
+	max-width: 280px;
 }
