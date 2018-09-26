@@ -1,235 +1,27 @@
-
-body {
-	text-align: center;
-	background-color: rgb(155, 139, 139);
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 2.0vw;
-
-	/* background-image: url("../assets/map.jpg"); */
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.container-fluid {
-	text-align: center;
-	align-content: center;
-	display: block;
-	margin-right: 10%;
-	margin-left: 10%;
-	padding-top: 95px;
-
-	/* background-color: rgba(79, 138, 124, 0.3); */
-	background-color: rgba(255, 255, 255, 0.2);
-	border-radius: 3%;
-}
-
-.row-fluid {
-	display: block;
-}
-
-#menu {
-	width: 100%;
-	height: 80px;	
+#side_menu {
+	margin-top: 0px;
+	padding-left: 2%;
+	background-color: whitesmoke;
+	width: auto;
+	display:inline-block;
 	position: fixed;
-	top: 0%;
-	left: 0%;
-	background-color: rgba(22, 22, 22, 0.5);
-	background-image: url("../assets/beach1-crop2.jpg");
-	background-size: 100%;
-	border-bottom-style: inset;
-	border-bottom-width: 3px;
-	border-bottom-color: rgb(46, 94, 78);
 }
 
-#logo {
-	display: block;
-	height: 60px;
-	padding: 10px;
-	float: left;
+.sticky-top {
+	top: 70px;
 }
 
-#title {
-	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-	padding: 0px;
-	float: left;
-	color: gold;
-	font-family: 'Treasure Map Deadhand', 'Times New Roman', Times, serif;
-	font-size: 40px;
+.container {
+	width: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: 140px;
 }
 
-#title h3{
-	margin-top: 20px;
-	margin-left: 20px;
+.price {
+	font-weight: 400;
 }
 
-@media screen and (max-width:752px) {
-    .span4 { display:none; }
+.card {
+	margin: 15px;
 }
-
-.span4 {
-	width: 433px;
-	margin-top: 20px;
-	margin-right: 10px;
-	float: right;
-	padding-left: 0;
-}
-
-.span4 li {
-	padding-right: 5px;
-	display: block;
-	float: right;
-}
-
-.span4 img {
-	height: 47px;
-}
-
-.span4 img:hover {
-	height: 51px;
-	box-shadow: 2px 10px 2px -2px rgba(0, 0, 0, 0.5);
-	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 0.5));
-}
-
-.span4 img:active {
-	height: 52px;
-}
-
-hr {
-	margin: 8vw;
-	margin-right: 26%;
-	margin-left: 26%;
-	border-style: double;
-	border-width: 5px;
-	border-color: gold;
-}
-
-#home {
-	height: 45vw;
-}
-
-.bookImg {
-	display: block;
-}
-
-.bookImg img {
-	margin-right: 10%;
-	float: right;
-	height: 45vw;
-	box-shadow: 2px 2px 18px 4px rgba(0, 0, 0, 1);
-}
-
-#summary p {
-	font-size: 2.4vw;
-	color: black;
-	
-	display: inline-block;
-	width: 30%;
-	padding: 1%;
-	margin-top: 21%;
-	margin-left: 5%;
-}
-
-#about {
-	text-align: left;
-	height: 90vw;
-}
-
-.about1 {
-	display: block;
-	padding: 5%;
-	padding-top: 0%;
-	padding-bottom: 0%;
-	width: 90%;
-}
-
-.aboutImg {
-	display: inline-block;
-	margin: 0 auto;
-	width: 42%;
-	padding-right: 3%;
-	padding-left: 3%;
-}
-
-.aboutImg img {
-	width: 100%;
-}
-
-.aboutp {
-	display: inline-block;
-	padding-right: 6%;
-	padding-left: 6%;
-	width: 39%;
-}
-
-.aboutp p {
-	margin: 0;
-}
-
-.video {
-	margin: 0 auto;
-	padding: 5%;
-	width: 50vw;
-	height: 30vw;
-}
-
-iframe {
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-}
-
-.review {
-	display: inline-block;
-	width: 25%;
-	padding: 2%;
-	font-size: 2.5vw;
-
-	border-style: outset;
-	border-width: 5px;
-	border-color: rgba(255, 217, 0, 0.637);
-
-	background-color: rgba(255, 217, 0, 0.589);
-}
-
-#reviews .button{
-	display: inline-block;
-	width: 17vw;
-
-	margin-top: 5vw;
-	font-family: 'Times New Roman', Times, serif;
-	color: aliceblue;
-	font-size: 3vw;
-
-	border-style: outset;
-	border-width: 3px;
-	border-color: rgb(10, 161, 149);
-	border-radius: 20px;
-
-	padding: 1vw;
-
-	background-color: rgb(11, 180, 166);
-
-	box-shadow: 1px 4px 5px 2px rgba(0, 0, 0, 0.5);
-}
-
-#reviews .button:hover {
-	background-color: rgb(13, 207, 191);
-}
-
-#reviews .button:active {
-	width: 16.5vw;
-	font-size: 2.9vw;
-	padding: 1.05vw;
-	box-shadow: .5px 2px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.span6 {
-	font-size: 1.5vw;
-	color: aquamarine;
-	background-color: rgba(0, 0, 0, 0.3);
-	width: 100%;
-}
-
