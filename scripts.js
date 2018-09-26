@@ -1,7 +1,7 @@
-let loadTest = function () {
+(function () {
   console.log('did it');
-  $("#looney").load("test.html");
-};
+  $("#main").load("loads/home.html");
+})();
 
 $("#load_nutrition").click(function() {
   $("#main").load("loads/nutrition.html");
@@ -16,6 +16,6 @@ $("#load_bath").click(function() {
 });
 
 $("#load_home").click(function() {
-  $("#main").load("loads/home.html");
+  $("#main").load("loads/cleaning.html");
 });
 
