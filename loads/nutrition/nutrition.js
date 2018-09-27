@@ -1,11 +1,9 @@
-let activeTabClass = 'active';
-
 function selectTab(id) {
-  document.getElementById("tab_general").classList.remove(activeTabClass);
-  document.getElementById("tab_targeted").classList.remove(activeTabClass);
-  document.getElementById("tab_weightmanagement").classList.remove(activeTabClass);
-  document.getElementById("tab_sports").classList.remove(activeTabClass);
-  document.getElementById(id).classList.add(activeTabClass);
+  document.getElementById("tab_general").classList.remove('active');
+  document.getElementById("tab_targeted").classList.remove('active');
+  document.getElementById("tab_weightmanagement").classList.remove('active');
+  document.getElementById("tab_sports").classList.remove('active');
+  document.getElementById(id).classList.add('active');
 }
 
 function loadGeneral(){
