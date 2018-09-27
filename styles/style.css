@@ -7,11 +7,16 @@
 	position: fixed;
 }
 
+#nav_home {
+	position: relative;
+	left: -20px;
+}
+
 .sticky-top {
 	top: 70px;
 }
 
-.container {
+#main {
 	width: auto;
 	margin-top: 60px;
 	margin-bottom: 60px;

@@ -31,18 +31,18 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-              <a class="nav-link" href="https://www.amway.com/Henrie/Shop/Access/Login.aspx" target="_blank" >Sign In<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://www.amway.com/Shop/Access/Login.aspx?ReturnURL=http://www.amway.com/shop/mysite/pwshome.aspx?pwsid=henrie" target="_blank" >Sign In<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-					<a class="nav-link" href="https://www.amway.com/Henrie/Shop/Registration/CustomerRegistration.aspx?Country=US" target="_blank" >Register</a>
+					<a class="nav-link" href="https://www.amway.com/Shop/Registration/CustomerRegistration.aspx?Country=US&pwsID=henrie" target="_blank" >Register</a>
 				</li>
             <!-- <li class="nav-item">
 				<a class="nav-link disabled" href="#">Disabled</a>
             </li> -->
 		</ul>
 		<form class="form-inline mt-2 mt-md-0">
-			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			<input id="searchbar" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button id="searchbutton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
 	</nav>
@@ -52,6 +52,7 @@
 	<!-- Custom side menu -->
 	<div id="side_menu" class="sticky-top">
 		<nav class="nav flex-column">
+			<a id="nav_home" class="nav-link" href="#">Home Page</a>
 			<a id="load_nutrition" class="nav-link" href="#">Nutrition</a>
 			<a id="load_beauty" class="nav-link" href="#">Beauty</a>
 			<a id="load_bath" class="nav-link" href="#">Bath & Body</a>
@@ -63,11 +64,11 @@
 	</main>
 </div>
 
-<!-- <footer class="footer">
+<footer class="footer">
 	<div class="container">
-		<span class="text-muted"></span>
+		<span class="text-muted">Shopping Limitless &copy; 2018. Product images used herein are owned by the Amway corporation.</span>
 	</div>
-</footer> -->
+</footer>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
