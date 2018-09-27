@@ -12,6 +12,10 @@
 	left: -20px;
 }
 
+.nav-tabs {
+	margin-top: 65px;
+}
+
 .sticky-top {
 	top: 70px;
 }

@@ -1,14 +1,13 @@
-(function () {
+function loadHome() {
   $("#main").load("loads/home.html");
-})(); // Immediately executed function on script load.
-
-$("#nav_home").click(function() {
-  $("#main").load("loads/home.html");
-});
+};
+loadHome(); // Default page load.
 
 $("#load_nutrition").click(function() {
-  $("#main").load("loads/nutrition.html");
+  $("#main").load("loads/nutrition/tabs.html");
 });
+
+$("#nav_home").click(loadHome);
 
 $("#load_beauty").click(function() {
   $("#main").load("loads/beauty.html");
