@@ -27,14 +27,23 @@
 	margin-left: 140px;
 }
 
-.price {
-	font-weight: 400;
+.card-deck {
+	flex: 1 0 0%;
 }
 
-.card {
+.row .card {
 	margin: 15px;
 	max-width: 280px;
 	min-width: 200px;
+}
+
+.card-deck .card {
+	min-width: 200px;
+	margin: 15px;
+}
+
+.price {
+	font-weight: 400;
 }
 
 #home {
