@@ -21,6 +21,13 @@ $("#load_home").click(function() {
   $("#main").load("loads/cleaning.html");
 });
 
+
+$('#searchbar').on('keyup', function(e) {
+  if (e.keyCode === 13) {
+      $('#searchbutton').click();
+  }
+});
+
 $("#searchbutton").click(function() {
   //http://www.amway.com/Shop/Search/SearchResults.aspx?searchkeyword=laundry%20wash&includeLMS=false&pwsID=Henrie
   let searchterm = document.getElementById('searchbar').value.replace(' ', '%20');
