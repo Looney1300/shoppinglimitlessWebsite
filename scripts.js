@@ -1,24 +1,24 @@
 function loadHome() {
-  $("#main").load("loads/home.html");
+  $("#main_content").load("loads/home.html");
 };
 loadHome(); // Default page load.
 
 $("#load_nutrition").click(function() {
-  $("#main").load("loads/nutrition/tabs.html");
+  $("#main_content").load("loads/nutrition/tabs.html");
 });
 
 $("#nav_home").click(loadHome);
 
 $("#load_beauty").click(function() {
-  $("#main").load("loads/beauty.html");
+  $("#main_content").load("loads/beauty.html");
 });
 
 $("#load_bath").click(function() {
-  $("#main").load("loads/bath.html");
+  $("#main_content").load("loads/bath.html");
 });
 
 $("#load_home").click(function() {
-  $("#main").load("loads/cleaning.html");
+  $("#main_content").load("loads/cleaning.html");
 });
 
 
