@@ -31,6 +31,12 @@
 	margin-right: 120px
 }
 
+@media (min-width: 1200px){
+	.container {
+		max-width: 2000px;
+	}
+}
+
 .card-deck {
 	flex: 1 0 0%;
 }
