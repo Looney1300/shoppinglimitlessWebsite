@@ -1,3 +1,6 @@
+let myAPI = {}; // API to load cards, 
+let jsdb = {}; // Database object of products
+
 function loadHome() {
   $("#main_content").load("loads/home.html");
 };

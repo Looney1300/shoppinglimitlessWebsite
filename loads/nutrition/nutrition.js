@@ -8,7 +8,9 @@ function selectTab(id) {
 
 function loadGeneral(){
   selectTab("tab_general");
-  $("#nutrition_main").load("loads/nutrition/general.html");
+  // $("#nutrition_main").load("loads/nutrition/general.html");
+  document.getElementById('nutrition_main').innerHTML = '';
+  myAPI.load_cards('nutrition_main', jsdb.nutrition.general);
 }; 
 loadGeneral(); // Default page load.
 
@@ -16,15 +18,21 @@ $("#tab_general").click(loadGeneral);
 
 $("#tab_targeted").click(function() {
   selectTab("tab_targeted");
-  $("#nutrition_main").load("loads/nutrition/targeted.html");
+  // $("#nutrition_main").load("loads/nutrition/targeted.html");
+  document.getElementById('nutrition_main').innerHTML = '';
+  myAPI.load_cards('nutrition_main', jsdb.nutrition.targeted);
 });
 
 $("#tab_weightmanagement").click(function() {
   selectTab("tab_weightmanagement");
-  $("#nutrition_main").load("loads/nutrition/weightmanagement.html");
+  // $("#nutrition_main").load("loads/nutrition/weightmanagement.html");
+  document.getElementById('nutrition_main').innerHTML = '';
+  myAPI.load_cards('nutrition_main', jsdb.nutrition.weightmanagement);
 });
 
 $("#tab_sports").click(function() {
   selectTab("tab_sports");
-  $("#nutrition_main").load("loads/nutrition/sports.html");
+  // $("#nutrition_main").load("loads/nutrition/sports.html");
+  document.getElementById('nutrition_main').innerHTML = '';
+  myAPI.load_cards('nutrition_main', jsdb.nutrition.sports);
 });
