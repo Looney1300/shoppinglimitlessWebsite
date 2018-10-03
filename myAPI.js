@@ -1,3 +1,5 @@
+let myAPI = {}; // API to load cards, 
+
 // ----------------------------
 //
 // divId is the div ID in which to load_card into.

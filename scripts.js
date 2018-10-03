@@ -1,27 +1,31 @@
-let myAPI = {}; // API to load cards, 
-let jsdb = {}; // Database object of products
 
 function loadHome() {
   $("#main_content").load("loads/home.html");
 };
 loadHome(); // Default page load.
 
+$("#nav_home").click(loadHome);
+
 $("#load_nutrition").click(function() {
   $("#main_content").load("loads/nutrition/tabs.html");
 });
 
-$("#nav_home").click(loadHome);
-
 $("#load_beauty").click(function() {
-  $("#main_content").load("loads/beauty.html");
+  // $("#main_content").load("loads/beauty.html");
+  document.getElementById("main_content").innerHTML = '';
+  myAPI.load_cards("main_content", jsdb.beauty);
 });
 
 $("#load_bath").click(function() {
-  $("#main_content").load("loads/bath.html");
+  // $("#main_content").load("loads/bath.html");
+  document.getElementById("main_content").innerHTML = '';
+  myAPI.load_cards("main_content", jsdb.bath);
 });
 
 $("#load_home").click(function() {
-  $("#main_content").load("loads/cleaning.html");
+  // $("#main_content").load("loads/cleaning.html");
+  document.getElementById("main_content").innerHTML = '';
+  myAPI.load_cards("main_content", jsdb.cleaning);
 });
 
 

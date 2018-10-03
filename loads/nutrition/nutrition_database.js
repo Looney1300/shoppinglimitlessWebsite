@@ -55,7 +55,7 @@ jsdb.nutrition.targeted = [
         title: 'Joint Health',
         price: '$36.00',
         description: 'Glucosamine and chondroitin for flexibility and mobility.',
-        href: 'https://www.amway.com/Shop/Henrie/productlink'
+        href: 'http://www.amway.com/Shop/Product/Product.aspx?itemNo=104664&pwsID=Henrie'
     },
     {
         imgsrc: 'assets/allplantprotein.jpg',
@@ -70,6 +70,13 @@ jsdb.nutrition.targeted = [
         price: '$76.00',
         description: 'Support your immune system with this plant-based all day immune support.',
         href: 'http://www.amway.com/Shop/Product/Product.aspx?itemNo=109747&pwsID=Henrie'
+    },
+    {
+        imgsrc: 'assets/clearguard.jpg',
+        title: 'Nutrilite™ ClearGuard® Dietary Supplement',
+        price: '$24.00',
+        description: 'This natural formula helps support clear nasal passages in three days or less.',
+        href: 'http://www.amway.com/Shop/Product/Product.aspx?itemNo=102735&pwsID=Henrie'
     },
 ];
 
