@@ -71,7 +71,7 @@
 	flex: 1 0 0%;
 }
 
-.row .card {
+.row .card, #reviews .card {
 	margin: 15px;
 	max-width: 280px;
 	min-width: 200px;
@@ -84,4 +84,17 @@
 
 .price {
 	font-weight: 400;
+}
+
+#reviews .card-body {
+	position: relative;
+	top: -50px;
+}
+
+#reviews .card-title {
+	font-family: cursive;
+}
+
+#reviews .lead {
+	font-size: 2rem;
 }
