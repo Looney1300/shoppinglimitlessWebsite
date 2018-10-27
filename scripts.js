@@ -1,3 +1,4 @@
+let mainContent = document.getElementById("main_content")
 
 function loadHome() {
   $("#main_content").load("loads/home.html");
@@ -12,23 +13,27 @@ $("#load_nutrition").click(function() {
 
 $("#load_beauty").click(function() {
   // $("#main_content").load("loads/beauty.html");
-  document.getElementById("main_content").innerHTML = '';
+  mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.beauty);
 });
 
 $("#load_bath").click(function() {
   // $("#main_content").load("loads/bath.html");
-  document.getElementById("main_content").innerHTML = '';
+  mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.bath);
 });
 
 $("#load_home").click(function() {
   // $("#main_content").load("loads/cleaning.html");
-  document.getElementById("main_content").innerHTML = '';
+  mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.cleaning);
 });
 
+$("#load_reviews").click(function() {
+  $("#main_content").load("loads/reviews.html");
+});
 
+// ------------ Search Stuff ---------------
 $('#searchbar').on('keyup', function(e) {
   if (e.keyCode === 13) {
       $('#searchbutton').click();
@@ -42,4 +47,5 @@ $("#searchbutton").click(function() {
   let newtab = window.open(searchurl, '_blank');
   newtab.focus();
 });
+// ------------------------------------------
 
