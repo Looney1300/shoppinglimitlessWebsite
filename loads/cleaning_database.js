@@ -38,4 +38,18 @@ jsdb.cleaning = [
         description: 'The power of oxygen and naturally derived cleansers leave dishes clean.',
         itemNo: 109867
     },
+    {
+        imgsrc: 'assets/products/cleanermultipurpose.jpg',
+        title: 'Amway Home™ L.O.C.™ Multi-Purpose Cleaner',
+        price: '$10.00',
+        description: 'Works on all washable items and surfaces, even your hands. Recognized by the U.S. Environmental Protection Agency’s (EPA) Safer Choice',
+        itemNo: 'E0001'
+    },
+    {
+        imgsrc: 'assets/products/spraybottle.jpg',
+        title: 'Amway Home™ Spray Bottle',
+        price: '$10.00',
+        description: 'Add any Amway Home™ concentrated surface cleaner plus water, and clean is just a spray away. ',
+        itemNo: 116798
+    },
 ];

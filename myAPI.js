@@ -49,10 +49,7 @@ myAPI.load_cards = function (divId, product_obj_list){
         
         let cardButton = document.createElement('a');
         // cardButton.target = '_blank'; // To open in another tab
-        if (product.hasOwnProperty('href')){
-            cardButton.href = product.href;
-        } 
-        else if (product.hasOwnProperty('searchString')){
+        if (product.hasOwnProperty('searchString')){
             let searchUrl = `http://www.amway.com/Shop/Search/SearchResults.aspx?searchkeyword=${product.searchString.replace(' ', '%20')}&includeLMS=False&viewall=Product&pwsID=Henrie`;
             cardButton.href = searchUrl;
         } 
