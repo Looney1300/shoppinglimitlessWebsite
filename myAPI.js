@@ -16,40 +16,52 @@ let myAPI = {}; // API to load cards,
 // ----------------------------
 myAPI.load_cards = function (divId, product_obj_list){
 
+    
     let makeCard = function (product) {
-        let productUrl = 'http://www.amway.com/Henrie/Shop/Product/Product.aspx/?itemno=';
-
+        
         let card = document.createElement('div');
         card.classList.add('card', 'col-sm');
-
+        
         let cardImage = document.createElement('img');
         cardImage.classList.add('card-img-top');
         cardImage.src = product.imgsrc;
         cardImage.alt = product.title;
         card.appendChild(cardImage);
-
+        
         let cardBody = document.createElement('div');
         cardBody.classList.add('card-body', 'd-flex', 'flex-column', 'mt-auto');
         card.appendChild(cardBody);
-
+        
         let cardTitle = document.createElement('h5');
         cardTitle.classList.add('card-title');
         cardTitle.innerText = product.title;
         cardBody.appendChild(cardTitle);
-
+        
         let cardPrice = document.createElement('p');
         cardPrice.classList.add('price');
         cardPrice.innerText = product.price;
         cardBody.appendChild(cardPrice);
-
+        
         let cardText = document.createElement('p');
         cardText.classList.add('card-text');
         cardText.innerText = product.description;
         cardBody.appendChild(cardText);
-
+        
         let cardButton = document.createElement('a');
         // cardButton.target = '_blank'; // To open in another tab
-        cardButton.href = product.href;
+        if (product.hasOwnProperty('href')){
+            cardButton.href = product.href;
+        } 
+        else if (product.hasOwnProperty('searchString')){
+            let searchUrl = `http://www.amway.com/Shop/Search/SearchResults.aspx?searchkeyword=${product.searchString.replace(' ', '%20')}&includeLMS=False&viewall=Product&pwsID=Henrie`;
+            cardButton.href = searchUrl;
+        } 
+        else if (product.hasOwnProperty('itemNo')){
+            let productUrl = `http://www.amway.com/Henrie/Shop/Product/Product.aspx/?itemno=${product.itemNo}`;
+            cardButton.href = productUrl;
+        } else {
+            cardButton.href = '#';
+        }
         cardButton.classList.add('btn', 'btn-primary');
         
         cardButton.innerText = 'View Details';
