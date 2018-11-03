@@ -40,10 +40,38 @@ jsdb.beauty = [
     },
     {
         imgsrc: 'assets/products/eyebrowpencil.jpg',
-        title: 'Artistry™ Automatic EyeBrow Pencil Refills & Holder',
+        title: 'Artistry Exact Fit® Longwearing Foundation',
         price: '$12.00 - $15.00',
-        description: 'The perfect eye includes the perfect eyebrow.',
+        description: 'Lock in the 24-hour look of flawless perfection.',
         itemNo: 3429
+    },
+    {
+        imgsrc: 'assets/products/foundationpowder.jpg',
+        title: 'Artistry Exact Fit® Perfecting Loose Powder',
+        price: '$43.00',
+        description: 'Luxurious powder formula combines Tahitian pearls and optical prisms for skin that looks perfected and luminous.',
+        itemNo: 3684
+    },
+    {
+        imgsrc: 'assets/products/foundationliquid.jpg',
+        title: 'Artistry™ Automatic EyeBrow Pencil Refills & Holder',
+        price: '$44.00',
+        description: 'The perfect eye includes the perfect eyebrow.',
+        itemNo: 4015
+    },
+    {
+        imgsrc: 'assets/products/blush.jpg',
+        title: 'Artistry Signature Color® Blush',
+        price: '$20.00',
+        description: 'This silky-soft, long-lasting formula comes in updated and contemporary shades that are sophisticated, chic and on-trend.',
+        itemNo: 3974
+    },
+    {
+        imgsrc: 'assets/products/eyeshadow.jpg',
+        title: 'Artistry Signature Color® Eye Shadow Quads',
+        price: '$40.00',
+        description: 'Create captivating eyes.',
+        itemNo: 3973
     },
     {
         imgsrc: 'assets/products/makeupwipes.jpg',
