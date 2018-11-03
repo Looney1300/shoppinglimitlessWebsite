@@ -15,18 +15,24 @@ $("#load_beauty").click(function() {
   // $("#main_content").load("loads/beauty.html");
   mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.beauty);
+  let category = 'Beauty';
+  $("#main_content").append(`<div class="text-center"><a class="nav-link" href="http://www.amway.com/Henrie/Shop/Product/Category.aspx/${category}"><u>More Products</u></a></div>`);
 });
 
 $("#load_bath").click(function() {
   // $("#main_content").load("loads/bath.html");
   mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.bath);
+  let category = 'Bath-Body';
+  $("#main_content").append(`<div class="text-center"><a class="nav-link" href="http://www.amway.com/Henrie/Shop/Product/Category.aspx/${category}"><u>More Products</u></a></div>`);
 });
 
 $("#load_home").click(function() {
   // $("#main_content").load("loads/cleaning.html");
   mainContent.innerHTML = '';
   myAPI.load_cards("main_content", jsdb.cleaning);
+  let category = 'At-Home';
+  $("#main_content").append(`<div class="text-center"><a class="nav-link" href="http://www.amway.com/Henrie/Shop/Product/Category.aspx/${category}"><u>More Products</u></a></div>`);
 });
 
 $("#load_partners").click(function() {
