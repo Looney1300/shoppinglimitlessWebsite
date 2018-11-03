@@ -11,14 +11,14 @@
 
 jsdb.bath = [
     {
-        imgsrc: 'assets/glistertoothpaste.jpg',
+        imgsrc: 'assets/products/glistertoothpaste.jpg',
         title: 'Glister® Multi-action Fluoride Toothpaste',
         price: '$4.50',
         description: 'A healthy clean you can see and feel with every smile.',
         href: 'http://www.amway.com/Henrie/Shop/Product/Product.aspx/?itemno=E9530'
     },
     {
-        imgsrc: 'assets/glistermouthwash.jpg',
+        imgsrc: 'assets/products/glistermouthwash.jpg',
         title: 'Glister® Multi-action Oral Rinse',
         price: '$10.50',
         description: 'Reduces plaque and kills bacteria that cause bad breath.',

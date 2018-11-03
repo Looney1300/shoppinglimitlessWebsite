@@ -29,6 +29,11 @@ $("#load_home").click(function() {
   myAPI.load_cards("main_content", jsdb.cleaning);
 });
 
+$("#load_partners").click(function() {
+  mainContent.innerHTML = '';
+  $("#main_content").load("loads/partners.html");
+});
+
 $("#load_reviews").click(function() {
   $("#main_content").load("loads/reviews.html");
 });

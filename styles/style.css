@@ -28,13 +28,17 @@
 }
 
 #main_content {
-	margin-left: 130px;
+	margin-left: 160px;
 	margin-right: 90px;
 }
 
-#home, #reviews {
+#home, #reviews, #partners {
 	text-align: center;
 	padding: 30px;
+}
+
+#home .btn {
+	font-size: 75%;
 }
 
 @media (max-width: 600px){
@@ -49,12 +53,16 @@
 	#nutrition_main .row {
 		padding-top: 0px;
 	}
-	#reviews {
+	#reviews, #partners {
 		padding-top: 70px;
 	}
 
+	#nav_home {
+		visibility: collapse;
+	}
 	.nav.flex-column {
 		flex-direction: row !important;
+		font-size: 0.75rem;
 	}
 	.sticky-top {
 		top: 60px;
@@ -77,6 +85,25 @@
 	min-width: 200px;
 }
 
+#partners .card {
+	margin: 3px;
+	max-width: 170px;
+	min-width: 140px;
+}
+
+#partners .lead {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+#partners .col-sm {
+	padding: 5px;
+}
+
+#partners p.card-text {
+	font-size: .7rem;
+}
+
 .card-deck .card {
 	min-width: 200px;
 	margin: 15px;
@@ -89,6 +116,14 @@
 #reviews .card-body {
 	position: relative;
 	top: -50px;
+}
+
+#partners .card-body {
+	padding: 0px;
+}
+
+#partners .card-img-top {
+	margin: 0px;
 }
 
 #reviews .card-title {
