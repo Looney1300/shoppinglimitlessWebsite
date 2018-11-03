@@ -66,6 +66,11 @@
 
 	#nav_home {
 		visibility: collapse;
+		width: 0px;
+		height: 0px;
+	}
+	#side_menu .nav-link{
+		padding-left: 5px;
 	}
 	.nav.flex-column {
 		flex-direction: row !important;
