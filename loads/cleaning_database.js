@@ -25,7 +25,7 @@ jsdb.cleaning = [
         itemNo: 110478
     },
     {
-        imgsrc: 'assets/products/allfabricbleach.jpg',
+        imgsrc: 'assets/products/laundrydetpowder.jpg',
         title: 'Amway Home™ SA8™ Powder Laundry Detergent',
         price: '$39.00',
         description: 'Enjoy highly concentrated, exploding crystals that dissolve fast and rinse away completely.',
