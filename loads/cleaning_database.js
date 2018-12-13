@@ -11,6 +11,13 @@
 
 jsdb.cleaning = [
     {
+        imgsrc: 'assets/products/prewashspray.jpg',
+        title: 'Amway Home™ Prewash Spray',
+        price: '$14.00',
+        description: 'Removes the toughest stains and works with just a spray.',
+        itemNo: 110403
+    },
+    {
         imgsrc: 'assets/products/allfabricbleach.jpg',
         title: 'All Fabric Bleach',
         price: '$26.00',
@@ -32,11 +39,11 @@ jsdb.cleaning = [
         itemNo: 109849
     },
     {
-        imgsrc: 'assets/products/prewashspray.jpg',
-        title: 'Amway Home™ Prewash Spray',
-        price: '$14.00',
-        description: 'Removes the toughest stains and works with just a spray.',
-        itemNo: 110403
+        imgsrc: 'assets/products/scouringpads.jpg',
+        title: 'Scouring Pads',
+        price: '$5.00',
+        description: 'Long lasting and rust free.',
+        itemNo: 110490
     },
     {
         imgsrc: 'assets/products/dishwashingliquid.jpg',
@@ -44,13 +51,6 @@ jsdb.cleaning = [
         price: '$15.00',
         description: 'When your dishes are covered with hard-to-get-off grease and gunk, use just a drop or two.',
         itemNo: 110488
-    },
-    {
-        imgsrc: 'assets/products/scouringpads.jpg',
-        title: 'Scouring Pads',
-        price: '$5.00',
-        description: 'Long lasting and rust free.',
-        itemNo: 110490
     },
     {
         imgsrc: 'assets/products/automaticdishtablets.jpg',
