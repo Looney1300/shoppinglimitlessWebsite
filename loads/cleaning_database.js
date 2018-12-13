@@ -18,6 +18,27 @@ jsdb.cleaning = [
         itemNo: 117774
     },
     {
+        imgsrc: 'assets/products/laundrydetliq.jpg',
+        title: 'Amway Home™ SA8™ Liquid Laundry Detergent – Floral',
+        price: '$36.00',
+        description: 'The concentrated detergent contains ingredients that won’t harm your laundry and are safer for the earth.',
+        itemNo: 110478
+    },
+    {
+        imgsrc: 'assets/products/allfabricbleach.jpg',
+        title: 'Amway Home™ SA8™ Powder Laundry Detergent',
+        price: '$39.00',
+        description: 'Enjoy highly concentrated, exploding crystals that dissolve fast and rinse away completely.',
+        itemNo: 109849
+    },
+    {
+        imgsrc: 'assets/products/prewashspray.jpg',
+        title: 'Amway Home™ Prewash Spray',
+        price: '$14.00',
+        description: 'Removes the toughest stains and works with just a spray.',
+        itemNo: 110403
+    },
+    {
         imgsrc: 'assets/products/dishwashingliquid.jpg',
         title: 'Dishwashing Liquid',
         price: '$15.00',
