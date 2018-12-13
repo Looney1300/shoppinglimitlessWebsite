@@ -13,6 +13,20 @@ jsdb.nutrition = {};
 
 jsdb.nutrition.general = [
     {
+        imgsrc: 'assets/products/wellnessbarsnut.jpg',
+        title: 'Nutrilite™ Wellness Bars – Nutty Dark Chocolate',
+        price: '$25.00',
+        description: 'A snack packed with great-tasting, wholesome, natural ingredients.',
+        itemNo: '111045'
+    },
+    {
+        imgsrc: 'assets/products/wellnessbarscoconut.jpg',
+        title: 'Nutrilite™ Wellness Bars – Coconut Almond',
+        price: '$25.00',
+        description: 'Conveniently portable and a healthy grab-and-go option for the whole family.',
+        itemNo: '111044'
+    },
+    {
         imgsrc: 'assets/products/doublex.jpg',
         title: 'Nutrilite™ Double X',
         price: '$71.00',
