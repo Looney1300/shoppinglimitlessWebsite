@@ -65,18 +65,11 @@ jsdb.nutrition.general = [
 
 jsdb.nutrition.targeted = [
     {
-        imgsrc: 'assets/products/jointhealth30day.jpg',
-        title: 'Joint Health',
-        price: '$36.00',
-        description: 'Glucosamine and chondroitin for flexibility and mobility.',
-        itemNo: 104664
-    },
-    {
-        imgsrc: 'assets/products/allplantprotein.jpg',
-        title: 'Nutrilite™ All Plant Protein Powder',
-        price: '$54.00',
-        description: 'Energy, muscle, and heart health.',
-        itemNo: 110415
+        imgsrc: 'assets/products/bvitamin.jpg',
+        title: 'Nutrilite™ Vitamin B Dual-Action',
+        price: '$40.00',
+        description: 'Fight fatigue before it hits with all eight essential B vitamins.',
+        itemNo: 110171
     },
     {
         imgsrc: 'assets/products/vitamincextendedrelease.jpg',
@@ -91,6 +84,20 @@ jsdb.nutrition.targeted = [
         price: '$24.00',
         description: 'This natural formula helps support clear nasal passages in three days or less.',
         itemNo: 102735
+    },
+    {
+    imgsrc: 'assets/products/allplantprotein.jpg',
+    title: 'Nutrilite™ All Plant Protein Powder',
+    price: '$54.00',
+    description: 'Energy, muscle, and heart health.',
+    itemNo: 110415
+    },
+    {
+    imgsrc: 'assets/products/jointhealth30day.jpg',
+    title: 'Joint Health',
+    price: '$36.00',
+    description: 'Glucosamine and chondroitin for flexibility and mobility.',
+    itemNo: 104664
     },
 ];
 
